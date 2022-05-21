@@ -5,7 +5,7 @@ name: autoClockIn
 
 on:
   schedule:
-    - cron: '31 21,13 * * *'
+    - cron: '31 21 * * *'
   workflow_dispatch:
 
 jobs:
