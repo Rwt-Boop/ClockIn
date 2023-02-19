@@ -3,9 +3,7 @@
 
 name: autoClockIn
 
-on:
-  schedule:
-  - cron: '20 23 * * *' 
+
   workflow_dispatch:
 
 jobs:
